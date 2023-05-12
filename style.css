@@ -32,7 +32,6 @@ section#celular{
     background: url(pacote-d013/imagens/frame-iphone.png) no-repeat;
 }
 
-
 iframe#tela{
     position: relative;
     top: 80px;
@@ -55,11 +54,12 @@ section#redes-sociais{
     bottom: 0;
     width: 100%;
     margin: 0 auto;
-    
+    padding-bottom: 20px;
 }
 
 section#redes-sociais img:hover {
-    border: 2px solid white;
-    transform: translate(-3px, -3px 10px 20px);
+    border: 2px solid rgba(255, 255, 255, 0.658);
+    transform: translate(-3px, -3px) scale(1.7);
     box-shadow: 5px 5px 10px black;
+    transition: transform .5s;
 }
