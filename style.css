@@ -19,17 +19,19 @@ body{
 
 main{
     height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 section#celular{
-    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
     height: 627px;
     width: 311px;
     background: url(pacote-d013/imagens/frame-iphone.png) no-repeat;
 }
+
 
 iframe#tela{
     position: relative;
@@ -37,4 +39,27 @@ iframe#tela{
     left: 22px;
     width: 267px;
     height: 471px;
+}
+
+section#redes-sociais img{
+    width: 70px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px black;
+    box-sizing: border-box;
+}
+
+section#redes-sociais{
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin: 0 auto;
+    
+}
+
+section#redes-sociais img:hover {
+    border: 2px solid white;
+    transform: translate(-3px, -3px 10px 20px);
+    box-shadow: 5px 5px 10px black;
 }
